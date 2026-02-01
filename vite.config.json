@@ -1,0 +1,11 @@
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  // This tells Vite that your site lives at /shell-style-portfolio/
+  base: '/shell-style-portfolio/', 
+  root: 'src',
+  build: {
+    outDir: '../dist',
+    emptyOutDir: true,
+  }
+})
